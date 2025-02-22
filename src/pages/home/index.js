@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import background from "../../assets/background.png";
@@ -5,6 +6,7 @@ import ItemList from "../../components/ItemList";
 import './styles.css';
 
 function App() {
+  const [user, setUser] = useState('');
   return (
     <div className="App">
       <Header />
