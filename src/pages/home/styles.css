@@ -15,6 +15,26 @@
     margin-top: 40px;
     color: #fff;
 }
+input{
+    border-radius: 1px solid #999;
+    border-radius: 22px;
+    min-width: 250px;
+    width: 83%;
+    margin-right: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    color: #5398f5;
+}
+button{
+    border-radius: 1px solid #999;
+    border-radius: 22px;
+    margin-right: 1rem;
+    background: #2d333b;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
 .perfil{
     display: flex;
     margin: 40px 0;
@@ -42,7 +62,7 @@
 .perfil p{
     color: #999999;
     font-size: 12px;
-    margin: 0;
+    margin-top: 1rem;
 }
 .repositorios{
     font-size: 32px;
@@ -50,3 +70,15 @@
     margin: 12px 0;
     text-align: center;
 }
+
+@media (max-width: 450px) {
+    input {
+        min-width: 150px;
+        width: 33%;
+    }
+    button{
+        font-size: 1rem;
+        margin-right: 1rem;
+        padding: 0.4rem;
+    }
+  }
